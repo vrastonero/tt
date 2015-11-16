@@ -1,0 +1,3 @@
+when you initialize repository it creates empty repository in directory for further work with it
+
+staging area is a bridge between working directory and repository. you put in staging area files you want to add to repository
