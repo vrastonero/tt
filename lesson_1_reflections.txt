@@ -1,0 +1,28 @@
+diff makes no sense in scanning to nearly identical files
+line by line. it is very useful.
+
+having entire history of file versions makes me more efficient programmer, because I could play with different versions of code, compare the behavior of different versions, have some test purposes - 
+try some functions without impact on stable version of code. 
+
+better to commit one logical action at  a time
+
+manual commit is more flexible than automated and it has more sense with proper use e.g. commit on logical action. On the other hand manual commit puts responsibility of saving changes on dveloper.
+
+I suppose that adding fuctionality of changing multiple files in one commit meets the interests of commiting logical changes , since separating logically connected changes like chaning of variable name or same constant in different files may lead to "overcommiting"
+
+Use "git log" to get list of commits.
+Use "git diff comm_orig comm_new" to see difference between commits
+***Hint*** 
+Could pass first 4 or more symbols from commit name not the whole string
+
+git checkout <commit>
+
+version control makes me more confident in making changes. I could easily rollback if something goes wrong in one action.pretty cool, yeah
+
+***config of git env***
+git config --global color.ui auto
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+add alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe" in .bash_profile
+
