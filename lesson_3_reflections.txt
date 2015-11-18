@@ -1,0 +1,5 @@
+in local repository:
+
+git remote add origin https://github.com/vrastonero/tt.git
+
+git push origin master 
