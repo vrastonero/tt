@@ -3,3 +3,5 @@ in local repository:
 git remote add origin https://github.com/vrastonero/tt.git
 
 git push origin master 
+
+diff between branch, fork, clone : branch refers to repository - it is a part of it. clone makes copy of repository on github(or on local machine) to your local machine. Fork copies someones repository on GitHub to your GitHub account 
